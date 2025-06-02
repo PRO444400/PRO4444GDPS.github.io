@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO4444GDPS - Geometry Dash Private Server by PRO4444</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #4cc9f0;
+            text-shadow: 0 0 10px rgba(76, 201, 240, 0.5);
+        }
+        
+        h2 {
+            color: #f72585;
+            border-bottom: 2px solid #f72585;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        .server-stats {
+            display: flex;
+            justify-content: space-around;
+            background-color: #1e1e1e;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat-box {
+            text-align: center;
+            padding: 10px;
+            min-width: 120px;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #4cc9f0;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #b8b8b8;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #f72585 0%, #b5179e 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px 5px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(247, 37, 133, 0.3);
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(247, 37, 133, 0.4);
+        }
+        
+        .btn-download {
+            background: linear-gradient(135deg, #4cc9f0 0%, #4361ee 100%);
+            box-shadow: 0 4px 8px rgba(76, 201, 240, 0.3);
+        }
+        
+        .btn-download:hover {
+            box-shadow: 0 6px 12px rgba(76, 201, 240, 0.4);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            color: #4cc9f0;
+            margin-top: 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+        }
+        
+        .social-links a {
+            color: #b8b8b8;
+            margin: 0 10px;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        
+        .social-links a:hover {
+            color: #f72585;
+        }
+        
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .server-stats {
+                flex-direction: column;
+            }
+            
+            .stat-box {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://raw.githubusercontent.com/PRO444400/PRO4444GDPS-SITE/refs/heads/main/photo_2024-03-06_20-58-21.ico" alt="GDPS Logo" class="logo">
+            <h1>PRO GDPS</h1>
+            <p>The ultimate Geometry Dash private server experience</p>
+            
+            <div>
+                <a href="#download" class="btn btn-download">Download Now</a>
+                <a href="#features" class="btn">Features</a>
+            </div>
+        </header>
+        
+        <div class="server-stats">
+            <div class="stat-box">
+                <div class="stat-number">1,500+</div>
+                <div class="stat-label">Players</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">200+</div>
+                <div class="stat-label">Levels</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Uptime</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Creators</div>
+            </div>
+        </div>
+        
+        <section id="features">
+            <h2>Server Features</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Custom Levels</h3>
+                    <p>Play exclusive levels created by our community that you won't find in the official game.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Increased Limits</h3>
+                    <p>Higher object limits, more colors, and expanded creator options.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Free Items</h3>
+                    <p>All icons, colors, and items are unlocked for free in our private server.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Active Community</h3>
+                    <p>Join our Discord server with hundreds of active players and creators.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Weekly Events</h3>
+                    <p>Participate in weekly challenges and competitions with prizes.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Custom Mods</h3>
+                    <p>Exclusive mods and tweaks to enhance your gameplay experience.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="download">
+            <h2>Download</h2>
+            <p>Join our growing community today! Download the PRO GDPS client for your platform:</p>
+            
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="https://drive.google.com/file/d/1Ie9j11Iq-9AUR8ANiEJ4p4RTOdwuUieG/view?usp=sharing" class="btn btn-download">Windows Download</a>
+                <a href="https://drive.google.com/file/d/1z2Zl5aG6clDJsrdf9HZXTV6u02KupkRu/view?usp=sharing" class="btn btn-download">Android APK</a>
+                <a href="https://drive.google.com/file/d/1IcJpzBGy5ZBxTsKv6rha9qHavZYU9dML/view?usp=sharing" class="btn btn-download">Mac OS Version</a>
+                <a href="https://www.google.com/url?q=https%3A%2F%2Fpro.ps.fhgdps.com%2Fdashboard%2F&sa=D&sntz=1&usg=AOvVaw0iJSjO5tTiqx86L8n5KrC_" class="fab fab-tools">Tools Page</a>
+            </div>
+            
+            <h3>Installation Instructions</h3>
+            <ol>
+                <li>Download the appropriate version for your device</li>
+                <li>Run the installer (Windows/Mac) or install the APK (Android)</li>
+                <li>Launch the game and enjoy!</li>
+            </ol>
+            
+            <div style="background-color: #1e1e1e; padding: 15px; border-radius: 8px; margin-top: 20px;">
+                <h4>Note for Android Users:</h4>
+                <p>You may need to enable "Install Unknown Sources" in your settings to install the APK file.</p>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>About PRO GDPS</h2>
+            <p>PRO GDPS is a private server for Geometry Dash created by fans, for fans. Our goal is to provide an enhanced GD experience with more features, more freedom, and an active community of players and creators.</p>
+            <p>The server is completely free to play and will always remain that way. We regularly update with new features and content based on community feedback.</p>
+        </section>
+        
+        <footer>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@PRO4444YT" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.google.com/url?q=https%3A%2F%2Fdiscord.gg%2F24BEdSS5&sa=D&sntz=1&usg=AOvVaw2Kq77zy2v0cmqAnFBYvTTn" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>© 2023 PRO GDPS. Not affiliated with RobTop Games.</p>
+            <p>Geometry Dash is a trademark of RobTop Games.</p>
+        </footer>
+    </div>
+    
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
